@@ -1,0 +1,13 @@
+baseURL = 'https://digitech.nfshost.com/pgz/'
+languageCode = 'en-au'
+title = 'TMC - Pygame Zero'
+theme = "hugo-geekdoc"
+
+pluralizeListTitles = false
+
+# Geekdoc required configuration
+pygmentsUseClasses = true
+# pygmentsCodeFences = true
+disablePathToLower = true
+
+publishDir = "docs"
