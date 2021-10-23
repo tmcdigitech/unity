@@ -1,4 +1,4 @@
-baseURL = 'https://digitech.nfshost.com/pgz/'
+baseURL = 'https://tmcdigitech.github.io/pgz/'
 languageCode = 'en-au'
 title = 'TMC - Pygame Zero'
 theme = ["hugo-geekdoc", "reveal-hugo"]
