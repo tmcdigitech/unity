@@ -1,7 +1,7 @@
 baseURL = 'https://digitech.nfshost.com/pgz/'
 languageCode = 'en-au'
 title = 'TMC - Pygame Zero'
-theme = "hugo-geekdoc"
+theme = ["hugo-geekdoc", "reveal-hugo"]
 
 pluralizeListTitles = false
 
@@ -11,3 +11,8 @@ pygmentsUseClasses = true
 disablePathToLower = true
 
 publishDir = "docs"
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
