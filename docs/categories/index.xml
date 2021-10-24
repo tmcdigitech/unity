@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on TMC - Pygame Zero</title>
-    <link>https://digitech.nfshost.com/pgz/categories/</link>
+    <link>https://tmcdigitech.github.io/pgz/categories/</link>
     <description>Recent content in Categories on TMC - Pygame Zero</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-au</language><atom:link href="https://digitech.nfshost.com/pgz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-au</language><atom:link href="https://tmcdigitech.github.io/pgz/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -23,6 +23,12 @@ project/
     └── ... # any music files
 ```
 
-You don't need to include those folders unless you have something to put in them.
+You don't need to have those folders unless you have something to put in them.
 
-Note that the shortcut buttons in Mu will open folders in the *default* location. If you have saved your project in a different location (like your OneDrive) don't use these shortcut buttons, as they won't open the right folders.
+{{< hint warning >}}
+**Check your version of Mu**
+
+If you are using a version of Mu older than `1.1.0-alpha.2`, the shortcut buttons in Pygame Zero mode (Images, Sounds, Fonts and Music) will open folders in Mu's *default* save location. If you have saved your project in a different location (like your OneDrive) you won't be able to use these shortcut buttons, as they won't open the right folders.
+
+From `1.1.0-alpha.2` onwards, the buttons will open folders relative to the file you have open, so they will always work, regardless of where you save your game file.
+{{< /hint >}}

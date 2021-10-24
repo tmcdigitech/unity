@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching materials on TMC - Pygame Zero</title>
+    <link>https://tmcdigitech.github.io/pgz/teaching/</link>
+    <description>Recent content in Teaching materials on TMC - Pygame Zero</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language><atom:link href="https://tmcdigitech.github.io/pgz/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Site URL 🡄🡆</title>
+      <link>https://tmcdigitech.github.io/pgz/teaching/siteUrl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tmcdigitech.github.io/pgz/teaching/siteUrl/</guid>
+      <description>Learn about Pygame Zero here:
+https://tmcdigitech.github.io/pgz/</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,6 +1,6 @@
 ---
 title: Reference materials
-weight: 9999
+weight: 8000
 ---
 
 - [Pygame Zero documentation](https://pygame-zero.readthedocs.io/en/latest/introduction.html)
