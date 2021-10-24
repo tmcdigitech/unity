@@ -8,6 +8,8 @@ Let's get something happening on your Gemma.
 All of these examples are complete programs, so make sure you copy them into Mu (or whatever editor you're using)
 and run them as you go through this page.
 
+{{< toc >}}
+
 ## Flash the built-in LED
 The first thing you try to get working on any embedded system is flashing a light. It's amazing how much information
 you can convey with just a light if you get a little creative!
@@ -64,8 +66,51 @@ while True:
     time.sleep(0.5)
 ```
 
-Notice that we on line 5 we call the dotstar `dot`, but to use it we say `dot[0]`. That's because
+Notice that we on line 5 we call the dotstar `dot`, but to use it we say `dot[0]`.
 Dotstars and Neopixels are designed to be chained together on a strip with common wires,
-and you need a way to talk to each one individually even though they share a signal wire. Since
-most counting in computers begins at zero, and there is just the one built-in dotstar, it is
-called `dot[0]`. The `[]` notation is to do with lists, which you used when programming the micro:bit.
+so `dot` actually refers to a [list]() of LEDs, not just one.
+Counting in computers usually begins at zero, so the LED at the end closest to the signal source is
+numbered `dot[0]` and the others numbered `dot[1]`, `dot[2]` and so on.
+Since there is only one built-in dotstar, we only use `dot[0]`.
+
+## Respond to the capacitive input
+
+You can use pin A2 as a capacitive input,
+meaning it will detect your finger touching it.
+
+```python {linenos=table}
+import board
+import digitalio
+from touchio import TouchIn
+
+touch2 = TouchIn(board.A2)
+
+led = DigitalInOut(board.D13)
+led.direction = Direction.OUTPUT
+
+while True:
+    led.value = touch2.value
+```
+
+## Capacitive input and the RGB LED
+
+If we want to control the RGB led with with
+the touch input, we need to do a bit more work,
+and use an `if` statement.
+
+```python {linenos=table}
+import board
+import adafruit_dotstar as dotstar
+from touchio import TouchIn
+
+touch2 = TouchIn(board.A2)
+
+led = DigitalInOut(board.D13)
+led.direction = Direction.OUTPUT
+
+while True:
+    if touch2.value:
+        dot[0] = (255, 255, 0)
+    else:
+        dot[0] = (0, 0, 255)
+```
