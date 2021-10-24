@@ -14,7 +14,7 @@
       <guid>https://tmcdigitech.github.io/gemma/02basics/circuitPython/</guid>
       <description>Let&amp;rsquo;s get something happening on your Gemma.
 All of these examples are complete programs, so make sure you copy them into Mu (or whatever editor you&amp;rsquo;re using) and run them as you go through this page.
-Flash the built-in LED    The first thing you try to get working on any embedded system is flashing a light. It&amp;rsquo;s amazing how much information you can convey with just a light if you get a little creative!</description>
+ Flash the built-in LED Flash the built-in RGB LED Respond to the capacitive input Capacitive input and the RGB LED   Flash the built-in LED    The first thing you try to get working on any embedded system is flashing a light.</description>
     </item>
     
     <item>
@@ -36,6 +36,29 @@ When defining a function, the pieces of information that the function takes to d
       <guid>https://tmcdigitech.github.io/gemma/glossary/color/</guid>
       <description>In almost all programming, American spellings are used. So as programmers we use colors, even though we would normally spell the word colours.
 Colors are slightly different on the Gemma from most other programming environments. For most programming, colors are described by the amount of red, green, and blue light to emit. These numbers are normally in the range 0 to 255. In Python, we list these as a tuple (red, green, blue), such as:</description>
+    </item>
+    
+    <item>
+      <title>import</title>
+      <link>https://tmcdigitech.github.io/gemma/glossary/import/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tmcdigitech.github.io/gemma/glossary/import/</guid>
+      <description>Importing is the process of adding functions from additional libraries to support your program.
+Imagine we wish to use the randint() function to choose a random number between 1 and 6, as though we were throwing a single six-sided die.
+The randint() function is included in the random library, but there are three ways we can import it, and each has its attractions.
+import    1 2 3 4  import random num = random.</description>
+    </item>
+    
+    <item>
+      <title>list</title>
+      <link>https://tmcdigitech.github.io/gemma/glossary/list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tmcdigitech.github.io/gemma/glossary/list/</guid>
+      <description>A list is a data structure for storing a series of related pieces of information.
+ Defining a list Selecting elements Adding elements Removing elements   Defining a list    You can define a list using square brackets, with the elements separated by commas, like this:
+squares = [0, 1, 4, 9, 16, 25, 36] vowels = [&amp;#34;a&amp;#34;, &amp;#34;e&amp;#34;, &amp;#34;i&amp;#34;, &amp;#34;o&amp;#34;, &amp;#34;u&amp;#34;] Selecting elements    You can pick an element from the list like this: squares[0].</description>
     </item>
     
     <item>
@@ -86,6 +109,17 @@ D:/ ├── code.py # on newer versions ├── main.py # on older versions 
       
       <guid>https://tmcdigitech.github.io/gemma/glossary/tuple/</guid>
       <description>A tuple is a single unit of data made up of multiple values. In Python they are defined using round brackets, with commas separating the values. Tuples can contain all sorts of data as values, but when programming Gemma we mostly use them for colors (red, green, blue, white).</description>
+    </item>
+    
+    <item>
+      <title>type</title>
+      <link>https://tmcdigitech.github.io/gemma/glossary/type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tmcdigitech.github.io/gemma/glossary/type/</guid>
+      <description>Computers store all information as sequences of numbers, but different kinds of data are encoded in different ways. For example, whole numbers and decimal numbers are stored differently.
+Some common data types you&amp;rsquo;ll encounter are:
+ integers (int) Integers are whole numbers, and can be positive or negative. floating point numbers (float and double) Floating point numbers (commonly called floats) are for storing decimal numbers. The number is stored in scientific notation, with a mantissa and exponent.</description>
     </item>
     
     <item>

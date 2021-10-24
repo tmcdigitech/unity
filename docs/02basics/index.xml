@@ -14,7 +14,7 @@
       <guid>https://tmcdigitech.github.io/gemma/02basics/circuitPython/</guid>
       <description>Let&amp;rsquo;s get something happening on your Gemma.
 All of these examples are complete programs, so make sure you copy them into Mu (or whatever editor you&amp;rsquo;re using) and run them as you go through this page.
-Flash the built-in LED    The first thing you try to get working on any embedded system is flashing a light. It&amp;rsquo;s amazing how much information you can convey with just a light if you get a little creative!</description>
+ Flash the built-in LED Flash the built-in RGB LED Respond to the capacitive input Capacitive input and the RGB LED   Flash the built-in LED    The first thing you try to get working on any embedded system is flashing a light.</description>
     </item>
     
   </channel>
