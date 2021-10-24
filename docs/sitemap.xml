@@ -2,64 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tmcdigitech.github.io/pgz/03walkthroughs/gemCatcher/</loc>
+    <loc>https://tmcdigitech.github.io/gemma/02basics/circuitPython/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/01gettingStarted/</loc>
+    <loc>https://tmcdigitech.github.io/gemma/01gettingStarted/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/02basics/python/</loc>
+    <loc>https://tmcdigitech.github.io/gemma/02basics/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/02basics/</loc>
+    <loc>https://tmcdigitech.github.io/gemma/glossary/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/03walkthroughs/ninjaRunner/</loc>
+    <loc>https://tmcdigitech.github.io/gemma/troubleshooting/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/02basics/pygameZero/</loc>
+    <loc>https://tmcdigitech.github.io/gemma/reference/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/03walkthroughs/tankGame/</loc>
+    <loc>https://tmcdigitech.github.io/gemma/teaching/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/03walkthroughs/</loc>
+    <loc>https://tmcdigitech.github.io/gemma/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/03walkthroughs/chaseGame/</loc>
+    <loc>https://tmcdigitech.github.io/gemma/glossary/argument/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/03walkthroughs/mazeGame/</loc>
+    <loc>https://tmcdigitech.github.io/gemma/categories/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/03walkthroughs/shootingGame/</loc>
+    <loc>https://tmcdigitech.github.io/gemma/glossary/color/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/03walkthroughs/racingGame/</loc>
+    <loc>https://tmcdigitech.github.io/gemma/glossary/parameter/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/03walkthroughs/verticalShooter/</loc>
+    <loc>https://tmcdigitech.github.io/gemma/teaching/siteUrl/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/glossary/</loc>
+    <loc>https://tmcdigitech.github.io/gemma/01gettingStarted/installation/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/03walkthroughs/moreTutorials/</loc>
+    <loc>https://tmcdigitech.github.io/gemma/01gettingStarted/fileStructure/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/troubleshooting/</loc>
+    <loc>https://tmcdigitech.github.io/gemma/tags/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/reference/</loc>
+    <loc>https://tmcdigitech.github.io/gemma/glossary/tuple/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/teaching/</loc>
+    <loc>https://tmcdigitech.github.io/gemma/glossary/variable/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/</loc>
-  </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/glossary/argument/</loc>
-  </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/categories/</loc>
-  </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/glossary/coordinate/</loc>
-  </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/glossary/color/</loc>
-  </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/glossary/parameter/</loc>
-  </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/teaching/siteUrl/</loc>
-  </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/01gettingStarted/installation/</loc>
-  </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/01gettingStarted/fileStructure/</loc>
-  </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/tags/</loc>
-  </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/glossary/tuple/</loc>
-  </url><url>
-    <loc>https://tmcdigitech.github.io/pgz/troubleshooting/01whybroken/</loc>
+    <loc>https://tmcdigitech.github.io/gemma/troubleshooting/01whybroken/</loc>
   </url>
 </urlset>

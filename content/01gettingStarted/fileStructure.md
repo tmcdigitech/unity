@@ -2,33 +2,15 @@
 title: Structuring your files
 ---
 
-Each of your projects should live in its own folder somewhere sensible (like in a Digital Tech folder in your OneDrive!).
+When you plug your Gemma in to your computer, it will appear as a USB drive (probably D:, unless you've got something else already plugged in).
+If you open the Gemma, you'll see a file called `code.py` or `main.py`. This is the file that your Gemma will run.
+To change the program your Gemma is running, just edit this file!
 
 ```
-project/
-├── game.py
+D:/
+├── code.py # on newer versions
+├── main.py # on older versions
 │
-├── images/
-│   ├── someImage.jpg
-│   ├── anotherImage.jpg
-│   └── ... # sprites, tiles and other image files
-│
-├── fonts/
-│   └── ... # any font files
-│
-├── sounds/
-│   └── ... # any sound files
-│
-└── music/
-    └── ... # any music files
+└── lib/
+    └── ... # library files, which tell the software how to control hardware we might connect
 ```
-
-You don't need to have those folders unless you have something to put in them.
-
-{{< hint warning >}}
-**Check your version of Mu**
-
-If you are using a version of Mu older than `1.1.0-alpha.2`, the shortcut buttons in Pygame Zero mode (Images, Sounds, Fonts and Music) will open folders in Mu's *default* save location. If you have saved your project in a different location (like your OneDrive) you won't be able to use these shortcut buttons, as they won't open the right folders.
-
-From `1.1.0-alpha.2` onwards, the buttons will open folders relative to the file you have open, so they will always work, regardless of where you save your game file.
-{{< /hint >}}

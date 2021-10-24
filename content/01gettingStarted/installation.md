@@ -2,40 +2,22 @@
 title: Software
 ---
 
-To develop games using Pygame Zero, you have two main options:
-1. use Mu
+To program you Gemma M0 or other CircuitPython compatible hardware, you will need to either:
+1. use Mu, or
 2. use another editor
    
-Mu is set up to be very helpful for beginners. It has some keyboard shortcuts, good help text, nice shortcut buttons, and is generaly very friendly to use and has a lot of features to help beginners get started.
+Mu is set up to be very helpful for beginners. It has some keyboard shortcuts, good help text, nice shortcut buttons, and is generally very friendly to use and has a lot of features to help beginners get started. It also includes a Serial Monitor, meaning Mu will automatically display information
+sent back from your Gemma.
 
-After you have been writing code for a while, you may find that a standard Python environment and a "full" text editor like Visual Studio Code allows you a lot more power and flexibility, at the cost of doing some more basic things yourself.
-
-An example of this is that Mu will automatically add the necessary first and last lines to your Pygame Zero file.
-
-The very top line, line 1, must read:
-
-```python
-import pgzrun
-```
-
-And the very last line must read:
-```python
-pgzrun.go()
-```
-
-If you are using Mu, it will automatically add these lines if you forget. With VS Code or another editor, you will need to do this yourself.
+After you have been writing code for a while, you may find that a more powerful text editor like Visual Studio Code allows you a lot more power and flexibility, at the cost of complexity, and possibly doing some more basic things yourself.
 
 ## Using Mu
 
-Install *Mu*, using the Company Portal (on a school computer), or from [the website](https://codewith.mu/). You're done!
+Install *Mu*, using the Company Portal (on a school computer), or from [the website](https://codewith.mu/).
 
-There is a [beginner's guide to Mu](https://codewith.mu/en/tutorials/1.1/start), if you want more help on how to use Mu.
-
-To make games in Pygame Zero, make sure you select the mode *Pygame Zero*.
+To program your Gemma M0, make sure you select the mode *CircuitPython* (depending on your version, it may be called something slightly different,
+but it is the mode with 'CircuitPython' somewhere in the title).
 
 ## Using Visual Studio Code
 
-From the Company Portal (on a school computer), or using the links below, install:
-
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Python](https://www.python.org/)
+Install *Visual Studio Code* from the Company Portal (on a school computer), or from [the website](https://code.visualstudio.com/).

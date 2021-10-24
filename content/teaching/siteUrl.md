@@ -7,6 +7,6 @@ reveal_hugo:
     transition_speed: fast
     highlight_theme: dracula
 ---
-Learn about Pygame Zero here:
+Learn about your Gemma here:
 
-<span style="font-size: 130%; color: #ffc000;">`https://tmcdigitech.github.io/pgz/`</span>
+<span style="font-size: 110%; color: #ffc000;">`https://tmcdigitech.github.io/gemma/`</span>

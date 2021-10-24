@@ -1,6 +1,6 @@
-baseURL = 'https://tmcdigitech.github.io/pgz/'
+baseURL = 'https://tmcdigitech.github.io/gemma/'
 languageCode = 'en-au'
-title = 'TMC - Pygame Zero'
+title = 'TMC - Gemma'
 theme = ["hugo-geekdoc", "reveal-hugo"]
 
 pluralizeListTitles = false

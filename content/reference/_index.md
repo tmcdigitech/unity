@@ -3,6 +3,7 @@ title: Reference materials
 weight: 8000
 ---
 
-- [Pygame Zero documentation](https://pygame-zero.readthedocs.io/en/latest/introduction.html)
-- [Physics for Game Developers](https://archive.org/details/physics-for-game-developers-2e/page/xii/mode/2up)
-- [Teaching a kid to code with Pygame Zero](https://www.mattlayman.com/blog/2019/teach-kid-code-pygame-zero/)
+- [Adafruit Gemma M0 site](https://learn.adafruit.com/adafruit-gemma-m0)
+- [CircuitPython Firmware for Gemma M0](https://circuitpython.org/board/gemma_m0/)
+- [CircuitPython Libraries](https://circuitpython.org/libraries)
+    - [v7 library files](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/download/20211024/adafruit-circuitpython-bundle-7.x-mpy-20211024.zip)
