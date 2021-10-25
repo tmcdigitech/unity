@@ -85,8 +85,8 @@ from touchio import TouchIn
 
 touch2 = TouchIn(board.A2)
 
-led = DigitalInOut(board.D13)
-led.direction = Direction.OUTPUT
+led = digitalio.DigitalInOut(board.D13)
+led.direction = digitalio.Direction.OUTPUT
 
 while True:
     led.value = touch2.value
@@ -105,8 +105,7 @@ from touchio import TouchIn
 
 touch2 = TouchIn(board.A2)
 
-led = DigitalInOut(board.D13)
-led.direction = Direction.OUTPUT
+dot = dotstar.DotStar(board.APA102_SCK, board.APA102_MOSI, 1, brightness=0.2)
 
 while True:
     if touch2.value:
