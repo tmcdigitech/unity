@@ -18,6 +18,16 @@ All of these examples are complete programs, so make sure you copy them into Mu 
     </item>
     
     <item>
+      <title>Counters</title>
+      <link>https://tmcdigitech.github.io/gemma/02basics/counters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tmcdigitech.github.io/gemma/02basics/counters/</guid>
+      <description>Embedded code like on a Gemma or Micro:bit often involves going around a main loop forever. We can&amp;rsquo;t use sleep/wait/delay functions because they&amp;rsquo;ll stop everything else from happening. We can use counters to make multiple actions seem to happen at once.
+Here is an example. In this case, you can see in the flowchart below that we will use a counter called n, and initialise it to 0. Each time around the loop we will check if n has reached 1000 yet.</description>
+    </item>
+    
+    <item>
       <title>argument</title>
       <link>https://tmcdigitech.github.io/gemma/glossary/argument/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

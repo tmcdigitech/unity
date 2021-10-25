@@ -10,11 +10,12 @@
 
 
 
-    <meta name="description" content="TMC - Gemma">
+    <meta name="description" content="Embedded code like on a Gemma or Micro:bit often involves going around a main loop forever. We can&rsquo;t use sleep/wait/delay functions because they&rsquo;ll stop everything else from happening. We can use counters to make multiple actions seem to happen at once.
+Here is an example. In this case, you can see in the flowchart below that we will use a counter called n, and initialise it to 0. Each time around the loop we will check if n has reached 1000 yet.">
 
 
 
-    <title>Learning the basics | TMC - Gemma</title>
+    <title>Counters | TMC - Gemma</title>
 
     <link rel="icon" type="image/svg+xml" href="/gemma/favicon/favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="/gemma/favicon/favicon-32x32.png">
@@ -22,15 +23,19 @@
 
     
 
-    <meta property="og:title" content="Learning the basics" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://tmcdigitech.github.io/gemma/02basics/" />
+    <meta property="og:title" content="Counters" />
+<meta property="og:description" content="Embedded code like on a Gemma or Micro:bit often involves going around a main loop forever. We can&rsquo;t use sleep/wait/delay functions because they&rsquo;ll stop everything else from happening. We can use counters to make multiple actions seem to happen at once.
+Here is an example. In this case, you can see in the flowchart below that we will use a counter called n, and initialise it to 0. Each time around the loop we will check if n has reached 1000 yet." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://tmcdigitech.github.io/gemma/02basics/counters/" /><meta property="article:section" content="02basics" />
+
+
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Learning the basics"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="Counters"/>
+<meta name="twitter:description" content="Embedded code like on a Gemma or Micro:bit often involves going around a main loop forever. We can&rsquo;t use sleep/wait/delay functions because they&rsquo;ll stop everything else from happening. We can use counters to make multiple actions seem to happen at once.
+Here is an example. In this case, you can see in the flowchart below that we will use a counter called n, and initialise it to 0. Each time around the loop we will check if n has reached 1000 yet."/>
 
 
     <script src="/gemma/js/darkmode-ce906ea916.min.js"></script>
@@ -55,6 +60,44 @@
 <!-- Made with Geekdoc theme https://github.com/thegeeklab/hugo-geekdoc -->
 
     
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "TechArticle",
+    "articleSection": "02basics",
+    "name": "Counters",
+    "headline": "Counters",
+    "alternativeHeadline": "",
+    "description": "Embedded code like on a Gemma or Micro:bit often involves going around a main loop forever. We can\u0026rsquo;t use sleep\/wait\/delay functions because they\u0026rsquo;ll stop everything else from happening. We can use counters to make multiple actions seem to happen at once.\nHere is an example. In this case, you can see in the flowchart below that we will use a counter called n, and initialise it to 0. Each time around the loop we will check if n has reached 1000 yet.",
+    "inLanguage": "en",
+    "isFamilyFriendly": "true",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https:\/\/tmcdigitech.github.io\/gemma\/02basics\/counters\/"
+    },
+    "copyrightHolder" : "TMC - Gemma",
+    "copyrightYear" : "0001",
+    "dateCreated": "0001-01-01T00:00:00.00Z",
+    "datePublished": "0001-01-01T00:00:00.00Z",
+    "dateModified": "0001-01-01T00:00:00.00Z",
+    "publisher":{
+        "@type":"Organization",
+        "name": "TMC - Gemma",
+        "url": "https://tmcdigitech.github.io/gemma/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https:\/\/tmcdigitech.github.io\/gemma\/brand.svg",
+            "width":"32",
+            "height":"32"
+        }
+    },
+    "url" : "https:\/\/tmcdigitech.github.io\/gemma\/02basics\/counters\/",
+    "wordCount" : "419",
+    "genre" : [ ]
+}
+</script>
+
 
     
 
@@ -280,7 +323,7 @@
             
             
                 <span class="flex">
-                    <a href="/gemma/02basics/counters/" class="gdoc-nav__entry ">
+                    <a href="/gemma/02basics/counters/" class="gdoc-nav__entry is-active">
                         Counters
                     </a>
                 </span>
@@ -712,7 +755,15 @@
         
     
     
-        <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/gemma/' href='/gemma/'><span itemprop='name'>7 DigiTech</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>Learning the basics</span><meta itemprop='position' content='3' /></li>
+        
+        
+        
+        
+    
+    
+        <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/gemma/' href='/gemma/'><span itemprop='name'>7 DigiTech</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/gemma/02basics/' href='/gemma/02basics/'><span itemprop='name'>Learning the basics</span></a><meta itemprop='position' content='3' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>Counters</span><meta itemprop='position' content='4' /></li>
+    
+
     
 
     
@@ -725,8 +776,175 @@
 
 
     <article class="gdoc-markdown gdoc-markdown__align--left">
-        <h1>Learning the basics</h1>
-        
+        <h1>Counters</h1>
+        <p>Embedded code like on a Gemma or Micro:bit
+often involves going around a main loop
+forever. We can&rsquo;t use sleep/wait/delay functions because they&rsquo;ll stop everything else
+from happening. We can use counters to make multiple actions seem to happen at once.</p>
+<p>Here is an example. In this case, you can see in the flowchart below that we will use
+a counter called <code>n</code>, and initialise it to 0. Each time around the loop we will check
+if <code>n</code> has reached 1000 yet. If it has we will reset it to 0. Otherwise, it will
+increment <code>n</code> (add 1 to it).</p>
+
+
+<script defer src="/gemma/js/mermaid-ebef212c8c.min.js"></script>
+<script defer src="/gemma/js/mermaid-loader-1bd1515cbf.min.js"></script>
+
+
+
+<pre class="gdoc-mermaid mermaid text-center">
+flowchart LR
+a([Start])
+b[Set n = 0]
+c[Switch light off]
+d{n == 1000?}
+e[Set n = 0]
+f[Flick switch]
+g[Increment n]
+a-->b-->c-->d
+d--True-->e-->f-->d
+d--False-->g-->d
+</pre>
+
+<p>Here is the equivalent Python code to run on your Gemma. Note that this loop goes around
+1000 times before it flicks the switch each time. Observe how fast the light is flashing;
+remember that computers are really, really, really, really fast!</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">board</span>
+<span class="kn">import</span> <span class="nn">digitalio</span>
+<span class="kn">import</span> <span class="nn">time</span>
+
+<span class="n">led</span> <span class="o">=</span> <span class="n">digitalio</span><span class="o">.</span><span class="n">DigitalInOut</span><span class="p">(</span><span class="n">board</span><span class="o">.</span><span class="n">LED</span><span class="p">)</span>
+<span class="n">led</span><span class="o">.</span><span class="n">direction</span> <span class="o">=</span> <span class="n">digitalio</span><span class="o">.</span><span class="n">Direction</span><span class="o">.</span><span class="n">OUTPUT</span>
+
+<span class="n">n</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">led</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">1000</span><span class="p">:</span>
+        <span class="n">n</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">led</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="ow">not</span> <span class="n">led</span><span class="o">.</span><span class="n">value</span>
+    <span class="n">n</span> <span class="o">+=</span> <span class="mi">1</span>
+</code></pre></td></tr></table>
+</div>
+</div><div class="gdoc-page__anchorwrap">
+    <h2 id="a-wild-example">
+        A wild example
+        <a data-clipboard-text="https://tmcdigitech.github.io/gemma/02basics/counters/#a-wild-example" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor A wild example" href="#a-wild-example">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><p>Here is a crazier example with four counters, one each for the built-in led,
+and each of the red, green and blue channels of the dotstar.</p>
+<p>Each counter is reset and its respective switch &ldquo;flicked&rdquo; after a given
+amount of time. Try changing the counter values to make different patterns.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">board</span>
+<span class="kn">import</span> <span class="nn">digitalio</span>
+<span class="kn">import</span> <span class="nn">adafruit_dotstar</span> <span class="k">as</span> <span class="nn">dotstar</span>
+
+<span class="n">led</span> <span class="o">=</span> <span class="n">digitalio</span><span class="o">.</span><span class="n">DigitalInOut</span><span class="p">(</span><span class="n">board</span><span class="o">.</span><span class="n">LED</span><span class="p">)</span>
+<span class="n">led</span><span class="o">.</span><span class="n">direction</span> <span class="o">=</span> <span class="n">digitalio</span><span class="o">.</span><span class="n">Direction</span><span class="o">.</span><span class="n">OUTPUT</span>
+
+<span class="n">dot</span> <span class="o">=</span> <span class="n">dotstar</span><span class="o">.</span><span class="n">DotStar</span><span class="p">(</span><span class="n">board</span><span class="o">.</span><span class="n">APA102_SCK</span><span class="p">,</span> <span class="n">board</span><span class="o">.</span><span class="n">APA102_MOSI</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">brightness</span><span class="o">=</span><span class="mf">0.2</span><span class="p">)</span>
+
+<span class="n">ledCount</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">led</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="kc">False</span>
+
+<span class="n">redCount</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">redValue</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="n">greenCount</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">greenValue</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="n">blueCount</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">blueValue</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">ledCount</span> <span class="o">==</span> <span class="mi">500</span><span class="p">:</span>
+        <span class="n">ledCount</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">led</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="ow">not</span> <span class="n">led</span><span class="o">.</span><span class="n">value</span>
+
+    <span class="k">if</span> <span class="n">redCount</span> <span class="o">==</span> <span class="mi">700</span><span class="p">:</span>
+        <span class="n">redCount</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">redValue</span> <span class="o">=</span> <span class="mi">255</span> <span class="o">-</span> <span class="n">redValue</span>
+
+    <span class="k">if</span> <span class="n">greenCount</span> <span class="o">==</span> <span class="mi">900</span><span class="p">:</span>
+        <span class="n">greenCount</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">greenValue</span> <span class="o">=</span> <span class="mi">255</span> <span class="o">-</span> <span class="n">greenValue</span>
+
+    <span class="k">if</span> <span class="n">blueCount</span> <span class="o">==</span> <span class="mi">1100</span><span class="p">:</span>
+        <span class="n">blueCount</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">blueValue</span> <span class="o">=</span> <span class="mi">255</span> <span class="o">-</span> <span class="n">blueValue</span>
+    <span class="n">ledCount</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="n">redCount</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="n">greenCount</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="n">blueCount</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="n">dot</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">redValue</span><span class="p">,</span> <span class="n">greenValue</span><span class="p">,</span> <span class="n">blueValue</span><span class="p">)</span>
+</code></pre></td></tr></table>
+</div>
+</div>
     </article>
 
                 
