@@ -96,7 +96,7 @@ All of these examples are complete programs, so make sure you copy them into Mu 
         }
     },
     "url" : "https:\/\/tmcdigitech.github.io\/gemma\/02basics\/circuitPython\/",
-    "wordCount" : "559",
+    "wordCount" : "558",
     "genre" : [ ]
 }
 </script>
@@ -897,8 +897,8 @@ meaning it will detect your finger touching it.</p>
 
 <span class="n">touch2</span> <span class="o">=</span> <span class="n">TouchIn</span><span class="p">(</span><span class="n">board</span><span class="o">.</span><span class="n">A2</span><span class="p">)</span>
 
-<span class="n">led</span> <span class="o">=</span> <span class="n">DigitalInOut</span><span class="p">(</span><span class="n">board</span><span class="o">.</span><span class="n">D13</span><span class="p">)</span>
-<span class="n">led</span><span class="o">.</span><span class="n">direction</span> <span class="o">=</span> <span class="n">Direction</span><span class="o">.</span><span class="n">OUTPUT</span>
+<span class="n">led</span> <span class="o">=</span> <span class="n">digitalio</span><span class="o">.</span><span class="n">DigitalInOut</span><span class="p">(</span><span class="n">board</span><span class="o">.</span><span class="n">D13</span><span class="p">)</span>
+<span class="n">led</span><span class="o">.</span><span class="n">direction</span> <span class="o">=</span> <span class="n">digitalio</span><span class="o">.</span><span class="n">Direction</span><span class="o">.</span><span class="n">OUTPUT</span>
 
 <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
     <span class="n">led</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="n">touch2</span><span class="o">.</span><span class="n">value</span>
@@ -929,7 +929,6 @@ and use an <code>if</code> statement.</p>
 </span><span class="lnt">11
 </span><span class="lnt">12
 </span><span class="lnt">13
-</span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">board</span>
@@ -938,8 +937,7 @@ and use an <code>if</code> statement.</p>
 
 <span class="n">touch2</span> <span class="o">=</span> <span class="n">TouchIn</span><span class="p">(</span><span class="n">board</span><span class="o">.</span><span class="n">A2</span><span class="p">)</span>
 
-<span class="n">led</span> <span class="o">=</span> <span class="n">DigitalInOut</span><span class="p">(</span><span class="n">board</span><span class="o">.</span><span class="n">D13</span><span class="p">)</span>
-<span class="n">led</span><span class="o">.</span><span class="n">direction</span> <span class="o">=</span> <span class="n">Direction</span><span class="o">.</span><span class="n">OUTPUT</span>
+<span class="n">dot</span> <span class="o">=</span> <span class="n">dotstar</span><span class="o">.</span><span class="n">DotStar</span><span class="p">(</span><span class="n">board</span><span class="o">.</span><span class="n">APA102_SCK</span><span class="p">,</span> <span class="n">board</span><span class="o">.</span><span class="n">APA102_MOSI</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">brightness</span><span class="o">=</span><span class="mf">0.2</span><span class="p">)</span>
 
 <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
     <span class="k">if</span> <span class="n">touch2</span><span class="o">.</span><span class="n">value</span><span class="p">:</span>
