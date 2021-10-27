@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Teaching materials on TMC - Gemma</title>
-    <link>https://tmcdigitech.github.io/gemma/teaching/</link>
-    <description>Recent content in Teaching materials on TMC - Gemma</description>
+    <title>Teaching materials on TMC - Unity</title>
+    <link>https://tmcdigitech.github.io/unity/teaching/</link>
+    <description>Recent content in Teaching materials on TMC - Unity</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-au</language><atom:link href="https://tmcdigitech.github.io/gemma/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-au</language><atom:link href="https://tmcdigitech.github.io/unity/teaching/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Site URL 🡄🡆</title>
-      <link>https://tmcdigitech.github.io/gemma/teaching/siteUrl/</link>
+      <link>https://tmcdigitech.github.io/unity/teaching/siteUrl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tmcdigitech.github.io/gemma/teaching/siteUrl/</guid>
-      <description>Learn about your Gemma here:
-https://tmcdigitech.github.io/gemma/</description>
+      <guid>https://tmcdigitech.github.io/unity/teaching/siteUrl/</guid>
+      <description>Learn about Unity here:
+https://tmcdigitech.github.io/unity/</description>
     </item>
     
   </channel>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Reference materials on TMC - Gemma</title>
-    <link>https://tmcdigitech.github.io/gemma/reference/</link>
-    <description>Recent content in Reference materials on TMC - Gemma</description>
+    <title>Reference materials on TMC - Unity</title>
+    <link>https://tmcdigitech.github.io/unity/reference/</link>
+    <description>Recent content in Reference materials on TMC - Unity</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-au</language><atom:link href="https://tmcdigitech.github.io/gemma/reference/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-au</language><atom:link href="https://tmcdigitech.github.io/unity/reference/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1,6 +1,6 @@
-baseURL = 'https://tmcdigitech.github.io/gemma/'
+baseURL = 'https://tmcdigitech.github.io/unity/'
 languageCode = 'en-au'
-title = 'TMC - Gemma'
+title = 'TMC - Unity'
 theme = ["hugo-geekdoc", "reveal-hugo"]
 
 pluralizeListTitles = false

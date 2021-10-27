@@ -2,50 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tmcdigitech.github.io/gemma/02basics/circuitPython/</loc>
+    <loc>https://tmcdigitech.github.io/unity/01gettingStarted/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/gemma/01gettingStarted/</loc>
+    <loc>https://tmcdigitech.github.io/unity/02basics/unity/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/gemma/02basics/counters/</loc>
+    <loc>https://tmcdigitech.github.io/unity/02basics/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/gemma/02basics/</loc>
+    <loc>https://tmcdigitech.github.io/unity/glossary/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/gemma/glossary/</loc>
+    <loc>https://tmcdigitech.github.io/unity/troubleshooting/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/gemma/troubleshooting/</loc>
+    <loc>https://tmcdigitech.github.io/unity/reference/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/gemma/reference/</loc>
+    <loc>https://tmcdigitech.github.io/unity/teaching/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/gemma/teaching/</loc>
+    <loc>https://tmcdigitech.github.io/unity/glossary/argument/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/gemma/</loc>
+    <loc>https://tmcdigitech.github.io/unity/categories/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/gemma/glossary/argument/</loc>
+    <loc>https://tmcdigitech.github.io/unity/glossary/color/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/gemma/categories/</loc>
+    <loc>https://tmcdigitech.github.io/unity/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/gemma/glossary/color/</loc>
+    <loc>https://tmcdigitech.github.io/unity/glossary/import/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/gemma/glossary/import/</loc>
+    <loc>https://tmcdigitech.github.io/unity/glossary/parameter/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/gemma/glossary/list/</loc>
+    <loc>https://tmcdigitech.github.io/unity/teaching/siteUrl/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/gemma/glossary/parameter/</loc>
+    <loc>https://tmcdigitech.github.io/unity/01gettingStarted/installation/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/gemma/teaching/siteUrl/</loc>
+    <loc>https://tmcdigitech.github.io/unity/tags/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/gemma/01gettingStarted/installation/</loc>
+    <loc>https://tmcdigitech.github.io/unity/glossary/type/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/gemma/01gettingStarted/fileStructure/</loc>
+    <loc>https://tmcdigitech.github.io/unity/glossary/typeUnity/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/gemma/tags/</loc>
+    <loc>https://tmcdigitech.github.io/unity/glossary/variable/</loc>
   </url><url>
-    <loc>https://tmcdigitech.github.io/gemma/glossary/tuple/</loc>
-  </url><url>
-    <loc>https://tmcdigitech.github.io/gemma/glossary/type/</loc>
-  </url><url>
-    <loc>https://tmcdigitech.github.io/gemma/glossary/variable/</loc>
-  </url><url>
-    <loc>https://tmcdigitech.github.io/gemma/troubleshooting/01whybroken/</loc>
+    <loc>https://tmcdigitech.github.io/unity/troubleshooting/01whybroken/</loc>
   </url>
 </urlset>

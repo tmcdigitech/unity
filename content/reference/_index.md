@@ -3,7 +3,8 @@ title: Reference materials
 weight: 8000
 ---
 
-- [Adafruit Gemma M0 site](https://learn.adafruit.com/adafruit-gemma-m0)
-- [CircuitPython Firmware for Gemma M0](https://circuitpython.org/board/gemma_m0/)
-- [CircuitPython Libraries](https://circuitpython.org/libraries)
-    - [v7 library files](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/download/20211024/adafruit-circuitpython-bundle-7.x-mpy-20211024.zip)
+- TMC Company Portal links
+    - [Unity](companyportal:ApplicationId=3cd43ed1-1c3e-4618-b926-fec491162d9e)
+    - [UnityHub](companyportal:ApplicationId=2db563bf-4694-4c91-869c-9c6e3462acaa)
+    - [Visual Studio Code](companyportal:ApplicationId=2637d717-a8fd-4728-8a41-b8628f8d3c25)
+- [Unity Manual](https://docs.unity3d.com/Manual/index.html)

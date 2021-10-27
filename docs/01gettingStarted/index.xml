@@ -1,29 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Getting started on TMC - Gemma</title>
-    <link>https://tmcdigitech.github.io/gemma/01gettingStarted/</link>
-    <description>Recent content in Getting started on TMC - Gemma</description>
+    <title>Getting started on TMC - Unity</title>
+    <link>https://tmcdigitech.github.io/unity/01gettingStarted/</link>
+    <description>Recent content in Getting started on TMC - Unity</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-au</language><atom:link href="https://tmcdigitech.github.io/gemma/01gettingStarted/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-au</language><atom:link href="https://tmcdigitech.github.io/unity/01gettingStarted/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Software</title>
-      <link>https://tmcdigitech.github.io/gemma/01gettingStarted/installation/</link>
+      <link>https://tmcdigitech.github.io/unity/01gettingStarted/installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tmcdigitech.github.io/gemma/01gettingStarted/installation/</guid>
-      <description>To program you Gemma M0 or other CircuitPython compatible hardware, you will need to either:
- use Mu, or use another editor  Mu is set up to be very helpful for beginners. It has some keyboard shortcuts, good help text, nice shortcut buttons, and is generally very friendly to use and has a lot of features to help beginners get started. It also includes a Serial Monitor, meaning Mu will automatically display information sent back from your Gemma.</description>
-    </item>
-    
-    <item>
-      <title>Structuring your files</title>
-      <link>https://tmcdigitech.github.io/gemma/01gettingStarted/fileStructure/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tmcdigitech.github.io/gemma/01gettingStarted/fileStructure/</guid>
-      <description>When you plug your Gemma in to your computer, it will appear as a USB drive (probably D:, unless you&amp;rsquo;ve got something else already plugged in). If you open the Gemma, you&amp;rsquo;ll see a file called code.py or main.py. This is the file that your Gemma will run. To change the program your Gemma is running, just edit this file!
-D:/ ├── code.py # on newer versions ├── main.py # on older versions │ └── lib/ └── .</description>
+      <guid>https://tmcdigitech.github.io/unity/01gettingStarted/installation/</guid>
+      <description>To develop projects in Unity you will need to download:
+ TMC Company Portal links  Unity UnityHub Visual Studio Code (or another editor)    </description>
     </item>
     
   </channel>

@@ -1,38 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>7 DigiTech on TMC - Gemma</title>
-    <link>https://tmcdigitech.github.io/gemma/</link>
-    <description>Recent content in 7 DigiTech on TMC - Gemma</description>
+    <title>DigiTech@TMC on TMC - Unity</title>
+    <link>https://tmcdigitech.github.io/unity/</link>
+    <description>Recent content in DigiTech@TMC on TMC - Unity</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-au</language><atom:link href="https://tmcdigitech.github.io/gemma/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-au</language><atom:link href="https://tmcdigitech.github.io/unity/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>CircuitPython</title>
-      <link>https://tmcdigitech.github.io/gemma/02basics/circuitPython/</link>
+      <title>Unity</title>
+      <link>https://tmcdigitech.github.io/unity/02basics/unity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tmcdigitech.github.io/gemma/02basics/circuitPython/</guid>
-      <description>Let&amp;rsquo;s get something happening on your Gemma.
-All of these examples are complete programs, so make sure you copy them into Mu (or whatever editor you&amp;rsquo;re using) and run them as you go through this page.
- Flash the built-in LED Flash the built-in RGB LED Respond to the capacitive input Capacitive input and the RGB LED   Flash the built-in LED    The first thing you try to get working on any embedded system is flashing a light.</description>
-    </item>
-    
-    <item>
-      <title>Counters</title>
-      <link>https://tmcdigitech.github.io/gemma/02basics/counters/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tmcdigitech.github.io/gemma/02basics/counters/</guid>
-      <description>Embedded code like on a Gemma or Micro:bit often involves going around a main loop forever. We can&amp;rsquo;t use sleep/wait/delay functions because they&amp;rsquo;ll stop everything else from happening. We can use counters to make multiple actions seem to happen at once.
-Here is an example. In this case, you can see in the flowchart below that we will use a counter called n, and initialise it to 0. Each time around the loop we will check if n has reached 1000 yet.</description>
+      <guid>https://tmcdigitech.github.io/unity/02basics/unity/</guid>
+      <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78  using System.</description>
     </item>
     
     <item>
       <title>argument</title>
-      <link>https://tmcdigitech.github.io/gemma/glossary/argument/</link>
+      <link>https://tmcdigitech.github.io/unity/glossary/argument/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tmcdigitech.github.io/gemma/glossary/argument/</guid>
+      <guid>https://tmcdigitech.github.io/unity/glossary/argument/</guid>
       <description>When calling a function, the values given to it are called arguments. For example, in this case:
 total = add(3, 4) 3 and 4 are arguments to the function add().
 When defining a function, the pieces of information that the function takes to do its job are called parameters.</description>
@@ -40,20 +28,20 @@ When defining a function, the pieces of information that the function takes to d
     
     <item>
       <title>color/colour</title>
-      <link>https://tmcdigitech.github.io/gemma/glossary/color/</link>
+      <link>https://tmcdigitech.github.io/unity/glossary/color/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tmcdigitech.github.io/gemma/glossary/color/</guid>
+      <guid>https://tmcdigitech.github.io/unity/glossary/color/</guid>
       <description>In almost all programming, American spellings are used. So as programmers we use colors, even though we would normally spell the word colours.
 Colors are slightly different on the Gemma from most other programming environments. For most programming, colors are described by the amount of red, green, and blue light to emit. These numbers are normally in the range 0 to 255. In Python, we list these as a tuple (red, green, blue), such as:</description>
     </item>
     
     <item>
       <title>import</title>
-      <link>https://tmcdigitech.github.io/gemma/glossary/import/</link>
+      <link>https://tmcdigitech.github.io/unity/glossary/import/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tmcdigitech.github.io/gemma/glossary/import/</guid>
+      <guid>https://tmcdigitech.github.io/unity/glossary/import/</guid>
       <description>Importing is the process of adding functions from additional libraries to support your program.
 Imagine we wish to use the randint() function to choose a random number between 1 and 6, as though we were throwing a single six-sided die.
 The randint() function is included in the random library, but there are three ways we can import it, and each has its attractions.
@@ -61,22 +49,11 @@ import    1 2 3 4  import random num = random.</description>
     </item>
     
     <item>
-      <title>list</title>
-      <link>https://tmcdigitech.github.io/gemma/glossary/list/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tmcdigitech.github.io/gemma/glossary/list/</guid>
-      <description>A list is a data structure for storing a series of related pieces of information.
- Defining a list Selecting elements Adding elements Removing elements   Defining a list    You can define a list using square brackets, with the elements separated by commas, like this:
-squares = [0, 1, 4, 9, 16, 25, 36] vowels = [&amp;#34;a&amp;#34;, &amp;#34;e&amp;#34;, &amp;#34;i&amp;#34;, &amp;#34;o&amp;#34;, &amp;#34;u&amp;#34;] Selecting elements    You can pick an element from the list like this: squares[0].</description>
-    </item>
-    
-    <item>
       <title>parameter</title>
-      <link>https://tmcdigitech.github.io/gemma/glossary/parameter/</link>
+      <link>https://tmcdigitech.github.io/unity/glossary/parameter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tmcdigitech.github.io/gemma/glossary/parameter/</guid>
+      <guid>https://tmcdigitech.github.io/unity/glossary/parameter/</guid>
       <description>When defining a function, the pieces of information that the function takes to do its job are called parameters. For example, here:
 def add(first, second): return first + second first and second are the parameters of the function add().
 When calling a function, the values given to it are called arguments.</description>
@@ -84,69 +61,63 @@ When calling a function, the values given to it are called arguments.</descripti
     
     <item>
       <title>Site URL 🡄🡆</title>
-      <link>https://tmcdigitech.github.io/gemma/teaching/siteUrl/</link>
+      <link>https://tmcdigitech.github.io/unity/teaching/siteUrl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tmcdigitech.github.io/gemma/teaching/siteUrl/</guid>
-      <description>Learn about your Gemma here:
-https://tmcdigitech.github.io/gemma/</description>
+      <guid>https://tmcdigitech.github.io/unity/teaching/siteUrl/</guid>
+      <description>Learn about Unity here:
+https://tmcdigitech.github.io/unity/</description>
     </item>
     
     <item>
       <title>Software</title>
-      <link>https://tmcdigitech.github.io/gemma/01gettingStarted/installation/</link>
+      <link>https://tmcdigitech.github.io/unity/01gettingStarted/installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tmcdigitech.github.io/gemma/01gettingStarted/installation/</guid>
-      <description>To program you Gemma M0 or other CircuitPython compatible hardware, you will need to either:
- use Mu, or use another editor  Mu is set up to be very helpful for beginners. It has some keyboard shortcuts, good help text, nice shortcut buttons, and is generally very friendly to use and has a lot of features to help beginners get started. It also includes a Serial Monitor, meaning Mu will automatically display information sent back from your Gemma.</description>
-    </item>
-    
-    <item>
-      <title>Structuring your files</title>
-      <link>https://tmcdigitech.github.io/gemma/01gettingStarted/fileStructure/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tmcdigitech.github.io/gemma/01gettingStarted/fileStructure/</guid>
-      <description>When you plug your Gemma in to your computer, it will appear as a USB drive (probably D:, unless you&amp;rsquo;ve got something else already plugged in). If you open the Gemma, you&amp;rsquo;ll see a file called code.py or main.py. This is the file that your Gemma will run. To change the program your Gemma is running, just edit this file!
-D:/ ├── code.py # on newer versions ├── main.py # on older versions │ └── lib/ └── .</description>
-    </item>
-    
-    <item>
-      <title>tuple</title>
-      <link>https://tmcdigitech.github.io/gemma/glossary/tuple/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tmcdigitech.github.io/gemma/glossary/tuple/</guid>
-      <description>A tuple is a single unit of data made up of multiple values. In Python they are defined using round brackets, with commas separating the values. Tuples can contain all sorts of data as values, but when programming Gemma we mostly use them for colors (red, green, blue, white).</description>
+      <guid>https://tmcdigitech.github.io/unity/01gettingStarted/installation/</guid>
+      <description>To develop projects in Unity you will need to download:
+ TMC Company Portal links  Unity UnityHub Visual Studio Code (or another editor)    </description>
     </item>
     
     <item>
       <title>type</title>
-      <link>https://tmcdigitech.github.io/gemma/glossary/type/</link>
+      <link>https://tmcdigitech.github.io/unity/glossary/type/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tmcdigitech.github.io/gemma/glossary/type/</guid>
-      <description>Computers store all information as sequences of numbers, but different kinds of data are encoded in different ways. For example, whole numbers and decimal numbers are stored differently.
+      <guid>https://tmcdigitech.github.io/unity/glossary/type/</guid>
+      <description>See also Types in Unity.
+Computers store all information as sequences of numbers, but different kinds of data are encoded in different ways. For example, whole numbers and decimal numbers are stored differently.
 Some common data types you&amp;rsquo;ll encounter are:
- integers (int) Integers are whole numbers, and can be positive or negative. floating point numbers (float and double) Floating point numbers (commonly called floats) are for storing decimal numbers. The number is stored in scientific notation, with a mantissa and exponent.</description>
+ integers (int) Integers are whole numbers, and can be positive or negative. booleans (bool) Booleans are either true or false, and are used for logic and decision making. floating point numbers (float and double) Floating point numbers (commonly called floats) are for storing decimal numbers.</description>
+    </item>
+    
+    <item>
+      <title>types in Unity</title>
+      <link>https://tmcdigitech.github.io/unity/glossary/typeUnity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tmcdigitech.github.io/unity/glossary/typeUnity/</guid>
+      <description>GameObject
+Quaternion
+EulerAngle
+Vector2/Vector3</description>
     </item>
     
     <item>
       <title>variable</title>
-      <link>https://tmcdigitech.github.io/gemma/glossary/variable/</link>
+      <link>https://tmcdigitech.github.io/unity/glossary/variable/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tmcdigitech.github.io/gemma/glossary/variable/</guid>
+      <guid>https://tmcdigitech.github.io/unity/glossary/variable/</guid>
       <description>A variable is a named place to store a piece of information.</description>
     </item>
     
     <item>
       <title>Why won&#39;t my program work?</title>
-      <link>https://tmcdigitech.github.io/gemma/troubleshooting/01whybroken/</link>
+      <link>https://tmcdigitech.github.io/unity/troubleshooting/01whybroken/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tmcdigitech.github.io/gemma/troubleshooting/01whybroken/</guid>
+      <guid>https://tmcdigitech.github.io/unity/troubleshooting/01whybroken/</guid>
       <description>Here is a checklist of things to look for if something is wrong&amp;hellip;
 Spelling and Capitalisation    Remember that the computer is really, really, really, really stupid. It will recognise only words it has been taught; it is not clever enough to handle spelling mistakes - these will confuse it. It is also not clever enough to know that most of the time we use A and a interchangeably, so you have to make sure that if the computer is expecting a capital letter, you give it one, and vice versa.</description>
     </item>

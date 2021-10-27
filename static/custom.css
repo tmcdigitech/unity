@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'Cascadia Code';
     src: url('fonts/CascadiaCode.woff2') format('woff2');
@@ -10,4 +11,5 @@
 }
 code{
     font-family: 'Cascadia Code', sans-serif;
+    font-feature-settings: 'calt', 'ss01';
 }
